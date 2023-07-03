@@ -126,7 +126,7 @@ async def on_ready():
 
 @client.command()
 async def help(ctx):
-    embed=discord.Embed(title="**Just Code It Assisstant**", description="**Command prefix : `>`**", timestamp = ctx.message.created_at, color=0x69ec5f)
+    embed=discord.Embed(title="**Security Assisstant**", description="**Command prefix : `>`**", timestamp = ctx.message.created_at, color=0x69ec5f)
     embed.add_field(name="**Help list**", value="`>help` , `>mod`", inline=True)
     embed.set_thumbnail(url = client.user.avatar_url)
     embed.set_footer(text = ctx.guild, icon_url = ctx.guild.icon_url)
